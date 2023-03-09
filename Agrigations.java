@@ -8,7 +8,7 @@ class A{
 class B{
 	public void m2() {
 		 
-		A a=new A();
+		A a=new A();//dependency
 		a.m1();
 	}
 }
